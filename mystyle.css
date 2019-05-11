@@ -1,0 +1,91 @@
+#main{
+    border-radius: 10px;
+    box-shadow: 2px 0 5px 5px #cccccc;
+    width: 30%;
+    overflow: hidden;
+    /* position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%,-50%) */
+}
+#central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#head{
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    /* border-bottom: solid 1px; */
+    background-color: rgb(23, 216, 65);
+}
+
+#myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 10px;
+}
+
+#submit{
+    font-size:10px;
+    color:white;
+    background-color:rgb(23,216,65);
+    margin-top: 10px;
+    border:0;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    font-weight:bold;
+}
+
+.in{
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #cccccc;
+    border: 0;
+    padding-left:10px;
+}
+
+::placeholder{
+    color:black;
+}
+
+#forgot{
+    font-size: 7px;
+    margin-top:3px;
+    position:relative;
+    left:25%;
+}
+
+
+a {
+    text-decoration:none;
+    color:rgb(23, 216, 65);
+}
+
+#dont{
+    font-size:7px;
+    padding-top:10px;
+}
+
+#signup{
+    color:rgb(23, 216, 65);
+    font-size:8px;
+    padding:3px;
+}
+
+footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
